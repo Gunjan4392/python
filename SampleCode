@@ -1,0 +1,29 @@
+# This prints out "Hello John Doe. Your current balance is $53.44."
+data = ("John", "Doe", 53.44)
+format_string = "Hello %s %s. Your current balance is $%s."
+print(format_string % data)
+
+
+# This prints out "John is 23 years old."
+name = "John"
+astring = "Hello world!"
+age = 23
+print("%s is %d years old." % (name, age))
+
+print(len(astring))
+# o/p -->  12   [String Length]
+
+print(astring.index("o"))
+# o/p -->  4    [String Index]
+
+print(astring[3:7])
+# o/p --> lo w    [Substring]
+
+x = 2
+print(x == 2) 
+# prints out True
+print(x == 3) 
+# prints out False
+print(x < 3) 
+# prints out True
+
