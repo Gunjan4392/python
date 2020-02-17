@@ -1,0 +1,10 @@
+1. Last day of month:
+monthrange(year, month)
+    Returns weekday of first day of the month and number of days in month, for the specified year and month.
+
+>>> import calendar
+>>> calendar.monthrange(2002,1)
+(1, 31)
+********calendar.monthrange(year, month)[1]************
+
+----------------------------------------------------------------
