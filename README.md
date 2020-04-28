@@ -42,3 +42,11 @@ o/p -->
     
 # Tuples --> No bracket or () brackets
 # Lists --> [] Square brackets
+# Sets --> {} brackets or set(<list_object>) or  set(<tuple_object>) --> Empty Sets --> set({})
+Example
+a = {1,2,3,4,5,6,6,7,8}
+# Dictionary --> {} Key Value Pairs
+Example 
+x = {'India' : 'INR', 'New Zealand' : 'NZD'}
+value = x.get('Australia', 'NA') # Value not present
+o/p --> NA
